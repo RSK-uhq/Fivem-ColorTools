@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="https://i.imgur.com/your-awesome-banner.png" alt="Bannière RSK-UHQ FiveM Color Replacer" width="700"/>
-  <h1>FiveM Color Replacer - RSK-UHQ</h1>
-  <p>Un outil puissant et interactif pour transformer facilement les couleurs dans vos ressources FiveM.</p>
+  <img src="https://i.imgur.com/your-awesome-banner.png" alt="RSK-UHQ FiveM Color Tools Banner" width="700"/>
+  <h1>FiveM ColorTools // RSK-UHQ</h1>
+  <p>A powerful and interactive tool to seamlessly transform colors within your FiveM resources.</p>
   <p>
-    <a href="#fonctionnalités">Fonctionnalités</a> •
-    <a href="#pré-requis">Pré-requis</a> •
+    <a href="#features">Features</a> •
+    <a href="#prerequisites">Prerequisites</a> •
     <a href="#installation">Installation</a> •
-    <a href="#utilisation">Utilisation</a> •
-    <a href="#formats-de-couleur-supportés">Formats Supportés</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#supported-color-formats">Supported Formats</a> •
     <a href="#contribution">Contribution</a> •
-    <a href="#licence">Licence</a>
+    <a href="#license">License</a>
   </p>
 </div>
 
@@ -17,81 +17,81 @@
 
 ## 🌟 Introduction
 
-Le **FiveM Color Replacer** est un script universel conçu pour simplifier la modification des couleurs au sein de vos ressources FiveM. Que vous souhaitiez harmoniser la palette de couleurs de votre serveur, ou simplement remplacer une couleur spécifique par une autre, cet outil intuitif et interactif est fait pour vous !
+The **FiveM ColorTools** is a universal script designed to simplify the modification of colors within your FiveM resources. Whether you aim to harmonize your server's color palette, or simply replace a specific color with another, this intuitive and interactive tool is built for you!
 
-Il prend en charge une large gamme de formats de fichiers et de notations de couleurs, offrant une flexibilité maximale.
+It supports a wide range of file formats and color notations, offering maximum flexibility.
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-* **🔍 Détection Intelligente :** Identifie les couleurs par noms (ex: `pink`, `purple`), codes hexadécimaux (`#FF0000`, `#F00`), et formats RGBA/RGB (`{255, 0, 0, 255}`, `rgba(255, 0, 0, 1)`).
-* **📂 Support Multi-fichiers :** Analyse et modifie les fichiers `.js`, `.css`, `.lua`, `.json`, `.html`, `.xml`, `.yml`, `.yaml`.
-* **🤖 Modes de Remplacement Multiples :**
-    * **Automatique :** Remplace toutes les occurrences automatiquement, en conservant le format original.
-    * **Manuel par Couleur Unique :** Permet de choisir une couleur de remplacement différente pour chaque couleur unique détectée.
-    * **Manuel Ligne par Ligne :** Offre un contrôle granulaire en validant ou modifiant chaque remplacement sur sa ligne.
-* **💾 Sauvegarde Sécurisée :** Les fichiers modifiés sont sauvegardés dans un dossier `result-uhq` séparé, préservant ainsi vos fichiers originaux.
-* **🌈 Interface Interactive :** Utilise `inquirer` pour des prompts conviviaux et `chalk` pour un affichage coloré dans le terminal.
+* **🔍 Intelligent Detection:** Identifies colors by names (e.g., `pink`, `purple`), hexadecimal codes (`#FF0000`, `#F00`), and RGBA/RGB formats (`{255, 0, 0, 255}`, `rgba(255, 0, 0, 1)`).
+* **📂 Multi-file Support:** Scans and modifies `.js`, `.css`, `.lua`, `.json`, `.html`, `.xml`, `.yml`, `.yaml` files.
+* **🤖 Multiple Replacement Modes:**
+    * **Automatic:** Replaces all occurrences automatically, preserving the original format.
+    * **Manual by Unique Color:** Allows you to choose a different replacement color for each unique detected color.
+    * **Manual Line-by-Line:** Offers granular control by validating or modifying each replacement on its specific line.
+* **💾 Secure Saving:** Modified files are saved to a separate `result-uhq` folder, preserving your original files.
+* **🌈 Interactive Interface:** Utilizes `inquirer` for user-friendly prompts and `chalk` for colorful terminal output.
 
-## 🚀 Pré-requis
+## 🚀 Prerequisites
 
-Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
+Before you begin, ensure you have the following installed:
 
-* [**Node.js**](https://nodejs.org/en/download/) (version 14.x ou plus récente recommandée)
-* [**npm**](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (normalement inclus avec Node.js)
+* [**Node.js**](https://nodejs.org/en/download/) (version 14.x or newer recommended)
+* [**npm**](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (usually included with Node.js)
 
 ## 📦 Installation
 
-1.  **Clonez le dépôt :**
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/RSK-uhq/Fivem-ColorTools
-    cd ton-repo-github
+    git clone [https://github.com/RSK-uhq/FiveM-ColorTools.git](https://github.com/RSK-uhq/FiveM-ColorTools.git)
+    cd FiveM-ColorTools
     ```
 
-2.  **Installez les dépendances :**
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-## 🎮 Utilisation
+## 🎮 Usage
 
-1.  **Lancez le script :**
+1.  **Launch the script:**
     ```bash
     npm start
     ```
-    Ou directement :
+    Or directly:
     ```bash
     node index.js
     ```
 
-2.  **Suivez les instructions** dans le terminal :
-    * Entrez la ou les couleurs que vous souhaitez rechercher (séparées par des virgules).
-    * Spécifiez la couleur par laquelle vous souhaitez les remplacer.
-    * Indiquez le chemin complet de votre dossier `resources` FiveM à scanner.
+2.  **Follow the instructions** in the terminal:
+    * Enter the color(s) you wish to search for (separated by commas).
+    * Specify the color you want to replace them with.
+    * Provide the full path to your FiveM `resources` folder to be scanned.
 
-    Le script vous guidera ensuite pour chaque fichier détecté, vous permettant de choisir le mode de remplacement.
+    The script will then guide you through each detected file, allowing you to choose the replacement mode.
 
-3.  **Vérifiez vos fichiers** : Une fois le script terminé, tous les fichiers modifiés se trouveront dans le dossier `result-uhq` créé à côté de votre dossier `resources` d'origine. Il est **FORTEMENT RECOMMANDÉ** de vérifier ces fichiers avant de les déployer sur votre serveur.
+3.  **Check your files:** Once the script completes, all modified files will be located in the `result-uhq` folder created next to your original `resources` folder. It is **HIGHLY RECOMMENDED** to review these files before deploying them to your server.
 
-## 🎨 Formats de Couleur Supportés
+## 🎨 Supported Color Formats
 
-Le script est capable de détecter et de remplacer les formats de couleurs suivants :
+The script is capable of detecting and replacing the following color formats:
 
-* **Noms de couleurs HTML/CSS :** `red`, `blue`, `pink`, `purple`, `lime`, `orange`, `white`, `black`, etc.
-* **Codes Hexadécimaux :** `#FF0000` (6 chiffres), `#F00` (3 chiffres).
-* **Formats RGBA/RGB (style Lua/FiveM) :** `{255, 0, 0, 255}` (avec ou sans alpha).
-* **Formats RGBA/RGB (style CSS) :** `rgb(255, 0, 0)`, `rgba(255, 0, 0, 0.5)`.
+* **HTML/CSS Color Names:** `red`, `blue`, `pink`, `purple`, `lime`, `orange`, `white`, `black`, etc.
+* **Hexadecimal Codes:** `#FF0000` (6-digit), `#F00` (3-digit).
+* **RGBA/RGB Formats (Lua/FiveM style):** `{255, 0, 0, 255}` (with or without alpha).
+* **RGBA/RGB Formats (CSS style):** `rgb(255, 0, 0)`, `rgba(255, 0, 0, 0.5)`.
 
 ## 🤝 Contribution
 
-Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration, des rapports de bugs, ou des fonctionnalités à ajouter, n'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+Contributions are welcome! If you have ideas for improvements, bug reports, or features to add, feel free to open an issue or submit a pull request.
 
-## 📄 Licence
+## 📄 License
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
 <div align="center">
-  <h3>✨ RSK-UHQ - Tous droits réservés ✨</h3>
-  <p>🔥 Le script qu'il te faut ! 🔥</p>
+  <h3>✨ RSK-UHQ - All rights reserved ✨</h3>
+  <p>🔥 The script you need! 🔥</p>
 </div>
