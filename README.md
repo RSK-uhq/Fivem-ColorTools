@@ -43,10 +43,9 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone [https://github.com/ton-utilisateur/ton-repo-github.git](https://github.com/ton-utilisateur/ton-repo-github.git)
+    git clone https://github.com/RSK-uhq/Fivem-ColorTools
     cd ton-repo-github
     ```
-    (Remplace `ton-utilisateur/ton-repo-github` par le chemin de ton propre dépôt)
 
 2.  **Installez les dépendances :**
     ```bash
