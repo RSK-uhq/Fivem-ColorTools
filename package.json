@@ -1,0 +1,26 @@
+{
+  "name": "fivem-color-tools",
+  "version": "1.0.0",
+  "description": "Un outil interactif et puissant pour détecter et remplacer les couleurs (hex, RGB, noms) dans vos ressources FiveM.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fivem",
+    "color",
+    "tool",
+    "script",
+    "changer",
+    "resources",
+    "lua",
+    "css",
+    "javascript"
+  ],
+  "author": "RSK-uhq",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6"
+  }
+}
