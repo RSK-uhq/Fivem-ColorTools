@@ -70,36 +70,6 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
     * Indiquez le chemin complet de votre dossier `resources` FiveM à scanner.
 
     Le script vous guidera ensuite pour chaque fichier détecté, vous permettant de choisir le mode de remplacement.
-
-
-Bienvenue ! Ce script va t'aider à transformer n'importe quelle couleur en une autre dans tes ressources FiveM.
-Les fichiers modifiés seront sauvegardés dans un nouveau dossier "result-uhq" à côté de ton dossier scanné.
-N'oublie pas de faire une sauvegarde de tes ressources avant de commencer !
-✨ RSK-UHQ - Tous droits réservés ✨
-
-? 🎨 Quelle(s) couleur(s) veux-tu rechercher ? (Ex: "pink", "#FFC0CB", "rgba(255,192,203,1)", "rose,lightpink" - séparées par virgule): pink
-? 🌈 Par quelle couleur veux-tu les remplacer ? (Ex: "red", "#FF0000", "rgb(255,0,0)"): blue
-? 📁 Entrez le chemin complet du dossier "resources" à scanner (ex: C:/fxserver/resources): C:/path/to/your/resources
-
-  Dossier de sortie créé: C:/path/to/your/result-uhq
-  Un fichier .gitignore a été ajouté dans 'C:/path/to/your/result-uhq'.
-
-🚀 Démarrage du scan dans: C:/path/to/your/resources
-Les fichiers modifiés iront dans: C:/path/to/your/result-uhq
-
-Recherche de: pink
-Remplacement par: blue
-
-*** RSK-UHQ POWERED ***
-
---- Fichier détecté: your-resource/ui/app.js ---
-  L   12: const myColor = 'pink';
-  L   34: element.style.color = 'pink';
-? Que veux-tu faire avec ce fichier ? (Use arrow keys)
-❯ 🔄 Remplacer automatiquement toutes les couleurs cibles par la couleur de remplacement (format conservé)
-  🎨 Remplacer manuellement chaque couleur cible unique (tu choisis pour chaque couleur)
-  ✏️ Remplacer ligne par ligne (tu valides chaque remplacement sur sa ligne)
-  ⏭️ Ignorer ce fichier
     ```
     </details>
 
