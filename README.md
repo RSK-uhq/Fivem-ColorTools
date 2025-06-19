@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/your-awesome-banner.png" alt="RSK-UHQ FiveM Color Tools Banner" width="700"/>
+  <img src="[https://i.imgur.com/your-awesome-banner.png](https://cdn.discordapp.com/attachments/1371657660751155342/1385249171925373038/image.png?ex=68556153&is=68540fd3&hm=1367423718f003088094b87532fc02fe9d4ff2c73f6961c049778f4762f89883&)" alt="RSK-UHQ FiveM Color Tools" width="700"/>
   <h1>FiveM ColorTools // RSK-UHQ</h1>
   <p>A powerful and interactive tool to seamlessly transform colors within your FiveM resources.</p>
   <p>
