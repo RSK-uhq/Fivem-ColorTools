@@ -71,19 +71,6 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
     Le script vous guidera ensuite pour chaque fichier détecté, vous permettant de choisir le mode de remplacement.
 
-    <details>
-      <summary>Aperçu de l'interface dans le terminal</summary>
-
-    ```
-                   ###                 ##     ###                        ###                          ##                 ###
-                    ##                 ##      ##                         ##                          ##                  ##
- ######    #####    ##  ##            #####    ##       ####              ##       ####     #####    #####                ##    ####    ##  ##
-  ##  ##  ##        ## ##              ##      #####   ##  ##             #####   ##  ##   ##         ##               #####   ##  ##   ##  ##
-  ##       #####    ####               ##      ##  ##  ######             ##  ##  ######    #####     ##              ##  ##   ######   ##  ##
-  ##           ##   ## ##              ## ##   ##  ##  ##                 ##  ##  ##            ##    ## ##           ##  ##   ##        ####
- ####     ######    ##  ##              ###   ###  ##   #####            ######    #####   ######      ###             ######   #####     ##
-
-         Script Universel de Remplacement de Couleurs FiveM
 
 Bienvenue ! Ce script va t'aider à transformer n'importe quelle couleur en une autre dans tes ressources FiveM.
 Les fichiers modifiés seront sauvegardés dans un nouveau dossier "result-uhq" à côté de ton dossier scanné.
