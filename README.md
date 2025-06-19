@@ -70,8 +70,6 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
     * Indiquez le chemin complet de votre dossier `resources` FiveM à scanner.
 
     Le script vous guidera ensuite pour chaque fichier détecté, vous permettant de choisir le mode de remplacement.
-    ```
-    </details>
 
 3.  **Vérifiez vos fichiers** : Une fois le script terminé, tous les fichiers modifiés se trouveront dans le dossier `result-uhq` créé à côté de votre dossier `resources` d'origine. Il est **FORTEMENT RECOMMANDÉ** de vérifier ces fichiers avant de les déployer sur votre serveur.
 
